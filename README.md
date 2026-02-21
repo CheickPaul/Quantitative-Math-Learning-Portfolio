@@ -1,31 +1,40 @@
 # Quantitative Math Learning Portfolio
-This repository documents my study and review journey to prepare for a  master's degree in quantitative finance and to pursue a role as a quant trader or analyst.
+
+This repository documents the structured consolidation and progressive deepening of quantitative foundations supporting graduate studies in finance and long-term development in portfolio and asset management.
+
+The objective is to reinforce mathematical rigor and analytical reasoning applied to investment analysis, risk management, and structured decision-making in financial markets.
+
+---
 
 ## Objective
-My goal is to review and enhance my understanding of mathematics and programming, focusing on the skills needed for a career in quantitative finance and quantitative trading.
-The objective is also to facilitate future revisions, and quickly retrieve key information that will be useful for my studies, projects, and professional career.
 
-## Roadmap - Learning Plan
+Holding a Bachelor’s degree in Physics, I developed strong foundations in mathematics, analytical modeling, and scientific reasoning.
 
-| Theme | Certificate / Program | Reference Book | Objective | Link to risk, asset management  | Example of Associated Python Project |
-|--------|------------------------|----------------|------------|------------------------------------|---------------------------|
-| **Linear Algebra** | Coursera: *Mathematics for Machine Learning – Linear Algebra* (Imperial College London) | *Linear Algebra Done Right* – **Sheldon Axler** | Understand vectors, transformations, eigenvalues, SVD | PCA, covariance, regression | `pca_covariance.ipynb` → Risk factor analysis through PCA |
-| **Differential Calculus** | Coursera: *Multivariate Calculus* (Imperial College London) | *Calculus Vol. 1* – **Tom Apostol** | Derivatives, gradients, integrals | Greeks, loss surfaces, backpropagation | `gradient_descent_visualizer.ipynb` → Gradient descent visualizer |
-| **Advanced Calculus / Multi-variable** | — (Complementary to previous module) | *Calculus Vol. 2* – **Tom Apostol** | Multiple integrals, differential equations, probabilities | Modeling risk fields, dynamic systems | `differential_equations_portfolio.ipynb` → Multi-factor portfolio dynamics |
-| **Probability & Statistics (Intuitive)** | Coursera: *Probability & Statistics: To p or not to p?* (University of London) | *Introduction to Probability* – **Joseph Blitzstein & Jessica Hwang** | Understand uncertainty, p-values, and inference | Simulation, statistical intuition, risk modeling | `returns_distribution_analysis.ipynb` → Simulating and analyzing return distributions |
-| **Probability & Statistics (Rigorous)** | Coursera: *Statistics with Python* (University of Michigan) | *Probability & Statistics* – **Morris DeGroot & Mark Schervish** | Expectation, variance, estimation, inference – implemented in Python | Risk, Monte Carlo, option pricing | `montecarlo_option_pricing.ipynb` → Monte Carlo option pricing simulation |
-| **Probability & Statistics (Advanced)** | Coursera: *Advanced Probability and Statistical Methods* (Johns Hopkins University) | *Statistical Inference* – **Casella & Berger** *(optional)* | Joint distributions, independence, conditional laws, Markov chains | Risk modeling, market dependencies | `markov_trading_states.ipynb` → Markov chains applied to market regimes |
-| **Stochastic Calculus** | edX / FutureLearn: *Stochastic Calculus for Finance* | *Stochastic Calculus for Finance I & II* – **Steven Shreve** | Wiener process, SDEs, Black–Scholes | Option pricing, volatility models | `black_scholes_simulation.ipynb` → Simulate Brownian motion and pricing models |
-| **Real Analysis / Topology** | FutureLearn / edX | *Understanding Analysis* – **Stephen Abbott** | Limits, continuity, convergence | Time-series theory, algorithmic convergence | `time_series_convergence.ipynb` → Visualization of convergence in moving averages |
-| **Discrete Mathematics / Logic** | Coursera: *Discrete Math for Computer Science* | *Discrete Mathematics and Its Applications* – **Kenneth Rosen** | Graphs, logic, combinatorics | Correlation networks, data structures | `graph_network_market.ipynb` → Asset correlation network |
-| **Optimization / Mathematical Programming** | Coursera: *Convex Optimization* | *Convex Optimization* – **Boyd & Vandenberghe** | Gradient descent, constraints, Lagrange methods | Portfolio allocation, model calibration | `markowitz_optimization.ipynb` → Optimal portfolio via quadratic optimization |
-| **PCA / Multivariate Analysis** | Coursera: *Mathematics for Machine Learning – PCA* (Imperial College London) | *Principal Component Analysis* – **I.T. Jolliffe** | Principal component decomposition, explained variance, SVD | Risk factors, dimensionality reduction | `pca_market_risk.ipynb` → PCA applied to market returns |
-| **Quantitative Portfolio Synthesis** | — (Final GitHub Project) | *Integration of all above resources* | Build a complete multi-factor quant portfolio & execution model | Risk decomposition, optimization, strategy automation | `quant_portfolio_dashboard.ipynb` → Dashboard integrating PCA, Markowitz, Monte Carlo,|
+This repository reflects a structured refresher and progressive extension of key quantitative concepts, beginning with Linear Algebra  to ensure rigor and alignment with financial applications.
 
-This repository is updated regularly as I continue to progress in my study journey. Please feel free to explore it and connect with me for collaboration or feedback..
+The focus is consolidation, refinement, and long-term intellectual continuity within a financial context.
 
-**Quick access:** [Linear Algebra folder](./linear-algebra--imperial-college-london/) ··· [Multivariate Calculus folder](./multivariate-calculus--imperial-college-london/) ··· [Probability & Statistics: To p or not to p? – University of London](./probability-statistics--uol-to-p-or-not-to-p/) ··· [PCA – Imperial College London](./pca--imperial-college-london/)
+---
 
+## Roadmap – Progressive Quantitative Development
+
+The roadmap below outlines a structured long-term plan for strengthening quantitative foundations in support of portfolio and asset management.
+
+Only active modules are developed at a given time.
+
+| Theme | Core Objective | Financial Application | Status |
+|--------|----------------|----------------------|--------|
+| **Linear Algebra** | Matrix operations, eigenvalues, SVD | PCA, covariance matrices, risk factor analysis | In progress |
+| Differential Calculus | Gradients, optimization principles | Sensitivity analysis, portfolio optimization | Planned |
+| Probability & Statistics | Uncertainty modeling, inference | Risk estimation, return distributions | Planned |
+| Optimization Methods | Constrained optimization | Asset allocation, efficient frontier | Long-term objective |
+| Stochastic Methods | Random processes, diffusion models | Volatility concepts, option pricing foundations | Long-term objective |
+
+---
+
+This repository evolves progressively as modules are completed and documented.
+
+**Quick access:** [Linear Algebra folder](./linear-algebra--imperial-college-london/) 
 ---
 
 ### 
