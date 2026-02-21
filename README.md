@@ -7,7 +7,7 @@ The objective is also to facilitate future revisions, and quickly retrieve key i
 
 ## Roadmap - Learning Plan
 
-| Theme | Certificate / Program | Reference Book | Objective | Link to Trading / Machine Learning | Associated Python Project |
+| Theme | Certificate / Program | Reference Book | Objective | Link to risk, asset management  | Example of Associated Python Project |
 |--------|------------------------|----------------|------------|------------------------------------|---------------------------|
 | **Linear Algebra** | Coursera: *Mathematics for Machine Learning – Linear Algebra* (Imperial College London) | *Linear Algebra Done Right* – **Sheldon Axler** | Understand vectors, transformations, eigenvalues, SVD | PCA, covariance, regression | `pca_covariance.ipynb` → Risk factor analysis through PCA |
 | **Differential Calculus** | Coursera: *Multivariate Calculus* (Imperial College London) | *Calculus Vol. 1* – **Tom Apostol** | Derivatives, gradients, integrals | Greeks, loss surfaces, backpropagation | `gradient_descent_visualizer.ipynb` → Gradient descent visualizer |
